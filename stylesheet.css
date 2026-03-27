@@ -1,4 +1,4 @@
-/*CSS selector for HTML Tag*/
+/*CSS selector applied to 2 HTML Tags*/
 h1 {
     color: rgb(232, 105, 127); 
 }
@@ -11,7 +11,7 @@ h2 {
 .section {
     background-color: #ffd6e8;
 
-    /*Box Model Property on Class*/
+    /*1. Box Model Property on Class --Styled the section class*/
     padding: 20px;
     margin: 15px;
     border-radius: 12px;
@@ -28,6 +28,7 @@ h2 {
 }
 
 /*Campus & Austin Life section*/
+/*2. Box Model Properties on Class*/
 .campus-life {
     background-color: rgba(250, 208, 245, 0.877);
     padding: 20px;
@@ -43,13 +44,13 @@ h2 {
 }
 
 
-/*Using ID and styling it*/
+/*Using created id and styling it*/
 #header {
     text-align: center;
     font-size: 36px;
 }
 
-/*Selector used to change color of <a> when hover*/
+/*CSS Selector used to change color of <a> when hover*/
 a:hover {
     color: purple;
 }
