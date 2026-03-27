@@ -9,7 +9,7 @@ h2 {
 
 /*Class used on multiple elements; this is the main sections*/
 .section {
-    background-color: pink;
+    background-color: #ffd6e8;
 
     /*Box Model Property on Class*/
     padding: 20px;
@@ -18,7 +18,7 @@ h2 {
 }
 
 /*Centering show image*/
-.interest-image {
+.show-image {
     display: block;
     margin: 15px auto;
     width: 250px;
@@ -34,11 +34,10 @@ h2 {
 }
 
 .campus-life img { 
-    display:block;
-    margin-top: 10px;
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    
 }
 
 
@@ -60,4 +59,8 @@ a {
 img {
     display: block;
     margin: 15px auto;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
 }
