@@ -1,0 +1,23 @@
+/*CSS selector for HTML Tag*/
+h1{
+    color: pink; 
+}
+
+/*Class used on multiple elements*/
+.section{
+    background-color: lightskyblue;
+
+    /*Box Model Property on Class*/
+    padding: 20px;
+    margin: 15px;
+}
+
+/*Using ID and styling it*/
+#header{
+    text-align: center;
+}
+
+/*Selector used to change color of <a> when hover*/
+a:hover {
+    color: purple;
+}
