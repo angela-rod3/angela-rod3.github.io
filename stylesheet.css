@@ -1,23 +1,63 @@
 /*CSS selector for HTML Tag*/
-h1{
-    color: pink; 
+h1 {
+    color: rgb(232, 105, 127); 
 }
 
-/*Class used on multiple elements*/
-.section{
-    background-color: lightskyblue;
+h2 {
+    color: rgb(250, 147, 214);
+}
+
+/*Class used on multiple elements; this is the main sections*/
+.section {
+    background-color: pink;
 
     /*Box Model Property on Class*/
     padding: 20px;
     margin: 15px;
+    border-radius: 12px;
 }
 
+/*Centering show image*/
+.interest-image {
+    display: block;
+    margin: 15px auto;
+    width: 250px;
+    border-radius: 10px;
+}
+
+/*Campus & Austin Life section*/
+.campus-life {
+    background-color: rgba(250, 208, 245, 0.877);
+    padding: 20px;
+    margin: 15px;
+    border-radius: 12px;
+}
+
+.campus-life img { 
+    display:block;
+    margin-top: 10px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+
 /*Using ID and styling it*/
-#header{
+#header {
     text-align: center;
+    font-size: 36px;
 }
 
 /*Selector used to change color of <a> when hover*/
 a:hover {
     color: purple;
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+img {
+    display: block;
+    margin: 15px auto;
 }
